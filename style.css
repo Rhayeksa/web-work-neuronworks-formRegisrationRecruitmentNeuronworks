@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0px 4px 8px rgb(0 0 0/10%);
+    padding: 1rem;
+    margin-bottom: 25px;
+}
+
+.navbar a img {
+    width: 8rem;
+}
+
+.container {
+    padding-left: 2%;
+}
+
+.leftContent {
+    float: left;
+    width: 48%;
+    margin-bottom: 2%;
+}
+
+.leftContent img {
+    width: 100%;
+}
+
+.rightContent {
+    float: left;
+    margin-bottom: 3%;
+}
+
+.rightContent form img {
+    width: 7rem;
+}
+
+.rightContent form {
+    box-shadow: 0px 4px 8px #949494;
+    padding-top: 2rem;
+    padding-right: 1.5rem;
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+}
+
+.rightContent form span {
+    color: red;
+}
+
+.rightContent form input {
+    width: 95%;
+    padding: 10px;
+    border: thin solid #cfd8dc;
+    border-radius: 5px;
+}
+
+.rightContent form select {
+    width: 98%;
+    padding: 10px;
+    border: thin solid #cfd8dc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.rightContent form button {
+    padding: 10px;
+    width: 98%;
+    border: thin solid #cfd8dc;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    background-color: #1e88e5;
+}
+
+.rightContent form button:hover {
+    padding: 10px;
+    width: 98%;
+    border: thin solid #cfd8dc;
+    border-radius: 5px;
+    background-color: #0a67b8;
+}
+
+.sosmed {
+    text-align: center;
+}
+
+.sosmed ul li {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.sosmed ul li img {
+    width: 2rem;
+}
+
+.footer {
+    text-align: center;
+}
+
+.footer a {
+    color: #1565c0;
+    text-decoration: none;
+    font-size: 15px;
+}
